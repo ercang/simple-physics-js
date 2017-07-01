@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Physics Test</title>
+
+    <script src="../../dist/simple-physics.js"></script>
+    <script src="../../third_party/Stats.js"></script>
+
+    <script src="main.js"></script>
+
+</head>
+<body onLoad="init()">
+    <input type="button" value="Add Body" onclick="onAddBodyClicked()" />
+    <input type="button" value="Remove Bodies" onclick="onRemoveBodiesClicked()" />
+    <input type="button" value="Toggle Gravity" onclick="onToggleGravityClicked()" />
+    <span id="bodyCountArea"></span>
+    <canvas id="debugCanvas" width="500" height="500"></canvas>
+</body>
+</html>
